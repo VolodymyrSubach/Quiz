@@ -8,7 +8,7 @@ from django.forms import widgets
 from .apps import user_register
 
 
-class UserRegisterFrom(forms.ModelForm):
+class UserRegisterForm(forms.ModelForm):
     email = forms.EmailField(label='email')
     password1 = forms.CharField(
         label='password',
@@ -47,7 +47,7 @@ class UserRegisterFrom(forms.ModelForm):
         if commit:
             user.save()
 
-        user_register.send(UserRegisterFrom, instance=user)
+        user_register.send(UserRegisterForm, instance=user)
 
         return user
 
