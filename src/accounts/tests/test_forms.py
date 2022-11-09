@@ -1,6 +1,6 @@
-from django.test import TestCase
-
 from accounts.forms import UserRegisterForm
+
+from django.test import TestCase
 
 
 class TestForms(TestCase):
@@ -25,4 +25,3 @@ class TestForms(TestCase):
         form = UserRegisterForm(data={})
         self.assertFalse(form.is_valid())
         self.assertEqual(len(form.errors), 4)
-
