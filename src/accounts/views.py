@@ -10,7 +10,9 @@ from django.urls import reverse_lazy
 from django.views.generic import CreateView
 from django.views.generic import UpdateView
 
+from .apps import user_register
 from .forms import UserRegisterForm, UserUpdateForm
+from .models import User
 from .utils import signer
 
 
@@ -60,3 +62,14 @@ class UserProfileUpdateView(LoginRequiredMixin, UpdateView):
 
     def get_object(self, queryset=None):
         return self.request.user
+
+
+def repeat_activation_request(request):
+    email = request.POST.get('email')
+    template = 'accounts/user_repeat_register_done.html'
+    try:
+        user = User.objects.get(email=email)
+        user_register.send(UserRegisterForm, instance=user)
+        return render(request, template)
+    except User.DoesNotExist:
+        return render(request, 'accounts/wrong_email.html')

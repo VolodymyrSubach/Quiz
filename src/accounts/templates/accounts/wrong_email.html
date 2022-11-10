@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Non-existent email
+{% endblock %}
+
+{% block header %}
+    Non-existent email
+{% endblock %}
+
+{% block content %}
+    <p>No user found with this email.</p>
+    <p>Please check if email address is correct and try <a href="{% url 'accounts:repeat_activation' %}">again</a> or
+        <a href="{% url 'accounts:register' %}">register</a> new account.</p>
+{% endblock %}
