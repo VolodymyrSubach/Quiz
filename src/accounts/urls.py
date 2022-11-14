@@ -5,6 +5,7 @@ from .views import UserLoginView
 from .views import UserLogoutView
 from .views import UserProfileUpdateView
 from .views import UserRegisterView
+from .views import repeat_activation_request
 from .views import user_activate
 from .views import user_profile_view
 
@@ -14,6 +15,9 @@ urlpatterns = [
     path('register/activate/<str:sign>/', user_activate, name='register_activate'),
     path('register/done/',
          TemplateView.as_view(template_name='accounts/user_register_done.html'), name='register_done'),
+    path('register/repeat_activation/',
+         TemplateView.as_view(template_name='accounts/user_repeat_activation.html'), name='repeat_activation'),
+    path('register/repeat_activate/', repeat_activation_request, name='repeat_activate'),
     path('register/', UserRegisterView.as_view(), name='register'),
     path('login/', UserLoginView.as_view(), name='login'),
     path('logout/', UserLogoutView.as_view(), name='logout'),

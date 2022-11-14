@@ -3,23 +3,26 @@
 {% load crispy_forms_filters %}
 
 {% block title %}
-    Create account
+    Email repeat
 {% endblock %}
 
 {% block header %}
-    Registration new user
+    Repeat email
 {% endblock %}
 
 {% block content %}
     <div class="row">
         <div class="col-3"></div>
         <div class="col">
-            <form method="post">
+            <form method="post" action="{% url 'accounts:repeat_activate' %}">
                 {% csrf_token %}
                 {{ form|crispy }}
                 <div class="mt-3 text-center">
-                    <input class="btn btn-outline-primary" type="submit" value="Send">
-                    <a href="{% url 'accounts:login' %}" class="btn btn-outline-success">Login</a>
+                    <label>Enter your email:
+                        <input name="email" type="email">
+                    </label>
+                        <input class="btn btn-outline-primary" type="submit" value="Send">
+
                 </div>
             </form>
         </div>
