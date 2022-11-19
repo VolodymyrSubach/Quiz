@@ -33,7 +33,7 @@ class ExamDetailView(LoginRequiredMixin, DetailView):
         context = super().get_context_data(**kwargs)
         try:
             context['best_result'] = Result.objects.filter(exam_id=self.object).order_by('-num_correct_answers')[0]
-            context['last_run'] = Result.objects.order_by('-update_timestamp')[0]
+            context['last_run'] = Result.objects.filter(exam_id=self.object).order_by('-update_timestamp')[0]
         except IndexError:
             context['best_result'] = 'N/A'
         return context
