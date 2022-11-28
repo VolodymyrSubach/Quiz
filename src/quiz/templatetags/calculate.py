@@ -24,6 +24,7 @@ def expression(value, *args):
         value = value.replace(f'%{idx}', str(arg))
     return eval(value)
 
+
 # {% expression '(%1 - 1) * 100 // %2' 23 56 as progress_level %}
 # '(23 - 1) * 100 // 56'
 # 1 23  ->  %1<-23

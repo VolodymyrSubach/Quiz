@@ -3,6 +3,7 @@ from django.urls import path
 from .views import ExamDetailView
 from .views import ExamListView
 from .views import ExamResultCreateView
+from .views import ExamResultDeleteView
 from .views import ExamResultDetailView
 from .views import ExamResultQuestionView
 from .views import ExamResultUpdateView
@@ -19,5 +20,5 @@ urlpatterns = [
     path('<uuid:uuid>/result/<uuid:res_uuid>/question/next/', ExamResultQuestionView.as_view(),
          name='question'),
     path('<uuid:uuid>/result/<uuid:res_uuid>/update/', ExamResultUpdateView.as_view(), name='result_update'),
-    # path('', '', name=''),
+    path('<uuid:uuid>/result/<uuid:res_uuid>/delete/', ExamResultDeleteView.as_view(), name='result_delete'),
 ]

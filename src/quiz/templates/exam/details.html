@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% load calculate %}
+
 {% block title %}
     Details of exam
 {% endblock %}
@@ -76,14 +78,16 @@
                 <tr>
                     <td>{{ forloop.counter }}</td>
                     <td>{{ result.create_timestamp|date:'d-M-Y H:i' }}</td>
-                    <td>HA</td>
+                    <td>
+                        {{ result.calculate_score }}
+                    </td>
                     <td>{{ result.get_state_display }}</td>
                     <td>
                         {% if result.state == result.STATE.NEW %}
                             <a class="btn btn-outline-warning" href="{% url 'quiz:result_update' exam.uuid result.uuid %}">
                                 Continue
                             </a>
-                            <a class="btn btn-outline-danger" href="#">
+                            <a class="btn btn-outline-danger" href="{% url 'quiz:result_delete' exam.uuid result.uuid %}">
                                 Remove
                             </a>
                         {% else %}

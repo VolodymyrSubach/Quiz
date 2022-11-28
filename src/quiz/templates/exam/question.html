@@ -8,7 +8,7 @@
 
 {% block header %}
     {{ question.order_num }}) {{ question.text }}
-{#    {% with question.order_num|add:-1|multi:100|dived:question.exam.questions_count as level %}#}
+    {#    {% with question.order_num|add:-1|multi:100|dived:question.exam.questions_count as level %}#}
     {% expression '(%1 - 1) * 100 // %2' question.order_num question.exam.questions_count as level %}
     <div class="progress">
         <div class="progress-bar progress-bar-striped progress-bar-animated"
@@ -18,12 +18,20 @@
              style="width: {{ level }}%"
              aria-valuemin="0"
              aria-valuemax="100"
-        >{{ level }}%</div>
+        >{{ level }}%
+        </div>
     </div>
-{#    {% endwith %}#}
+    {#    {% endwith %}#}
 {% endblock %}
 
 {% block content %}
+    {% if messages %}
+        <ul class="messages p-3 mb-2 bg-danger text-white">
+            {% for message in messages %}
+                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
     <div class="container">
         <form method="post" autocomplete="off">
             {% csrf_token %}
@@ -31,8 +39,8 @@
             {% for form in choices %}
                 <div class="mt-1">
                     {{ form.is_selected }} <label for="{{ form.is_selected.id_for_label }}">
-                        {{ form.text.value }}
-                    </label>
+                    {{ form.text.value }}
+                </label>
                 </div>
             {% endfor %}
             <button type="submit" class="btn btn-outline-success mt-5">Next ></button>
