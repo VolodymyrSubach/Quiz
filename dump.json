@@ -1,0 +1,2146 @@
+[
+{
+   "model": "quiz.exam",
+   "pk": 1,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:35:44.918Z",
+      "update_timestamp": "2022-11-19T16:14:53.957Z",
+      "uuid": "07065652-ac72-4f78-9db7-131851ff1d00",
+      "title": "Математика",
+      "description": "Нубольшой тест по математике",
+      "level": 0
+   }
+},
+{
+   "model": "quiz.exam",
+   "pk": 2,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:06:43.778Z",
+      "update_timestamp": "2022-11-19T18:18:41.156Z",
+      "uuid": "c7d934f0-7ecd-44c7-8954-e0127a5f721b",
+      "title": "Географія",
+      "description": "",
+      "level": 1
+   }
+},
+{
+   "model": "quiz.exam",
+   "pk": 3,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:27:32.516Z",
+      "update_timestamp": "2022-11-19T18:38:57.425Z",
+      "uuid": "43f79e57-335b-46cb-848d-48d514f9edf5",
+      "title": "Біологія",
+      "description": "",
+      "level": 0
+   }
+},
+{
+   "model": "quiz.exam",
+   "pk": 4,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:46:37.039Z",
+      "update_timestamp": "2022-11-19T18:50:18.040Z",
+      "uuid": "7c090f32-3754-44bc-8722-6781b1b52009",
+      "title": "Географія 6 класс",
+      "description": "",
+      "level": 0
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 1,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:36:41.104Z",
+      "update_timestamp": "2022-11-19T15:54:25.964Z",
+      "exam": 1,
+      "order_num": 1,
+      "text": "4 + 2 =?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 2,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:37:05.425Z",
+      "update_timestamp": "2022-11-19T16:05:26.437Z",
+      "exam": 1,
+      "order_num": 3,
+      "text": "3 + 5 = ?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 3,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:37:22.502Z",
+      "update_timestamp": "2022-11-19T16:05:26.438Z",
+      "exam": 1,
+      "order_num": 4,
+      "text": "8 + 8 =?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 4,
+   "fields": {
+      "create_timestamp": "2022-11-19T16:05:26.438Z",
+      "update_timestamp": "2022-11-19T16:16:43.168Z",
+      "exam": 1,
+      "order_num": 2,
+      "text": "3 + 3 =?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 5,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:06:43.779Z",
+      "update_timestamp": "2022-11-19T18:09:22.842Z",
+      "exam": 2,
+      "order_num": 1,
+      "text": "Плита це :",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 6,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:06:43.779Z",
+      "update_timestamp": "2022-11-19T18:08:45.720Z",
+      "exam": 2,
+      "order_num": 2,
+      "text": "Щит це:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 7,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:06:43.779Z",
+      "update_timestamp": "2022-11-19T18:08:06.558Z",
+      "exam": 2,
+      "order_num": 3,
+      "text": "Западина це:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 8,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:09:59.989Z",
+      "update_timestamp": "2022-11-19T18:11:36.936Z",
+      "exam": 2,
+      "order_num": 4,
+      "text": "Вкажіть,частиною якої тектонічної структури є Український щит:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 9,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:10:47.162Z",
+      "update_timestamp": "2022-11-19T18:12:27.257Z",
+      "exam": 2,
+      "order_num": 5,
+      "text": "Рельєфом називають:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 10,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:10:47.162Z",
+      "update_timestamp": "2022-11-19T18:13:20.685Z",
+      "exam": 2,
+      "order_num": 6,
+      "text": "Вкажіть,які поклади в геологічній будові України є найдавнішими:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 11,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:14:34.426Z",
+      "update_timestamp": "2022-11-19T18:17:29.695Z",
+      "exam": 2,
+      "order_num": 7,
+      "text": "Вкажіть найвищу вершину Кримських гір:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 12,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:14:34.427Z",
+      "update_timestamp": "2022-11-19T18:16:47.492Z",
+      "exam": 2,
+      "order_num": 8,
+      "text": "Оберіть епоху горотворення,у яку остаточно формувалася Карпатська і Кримська гірські споруди:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 13,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:14:34.427Z",
+      "update_timestamp": "2022-11-19T18:16:00.881Z",
+      "exam": 2,
+      "order_num": 9,
+      "text": "Вибрати правильний перелік платформ України",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 14,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:14:34.428Z",
+      "update_timestamp": "2022-11-19T18:15:20.437Z",
+      "exam": 2,
+      "order_num": 10,
+      "text": "Результатом зовнішніх процесів є",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 15,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:18:41.157Z",
+      "update_timestamp": "2022-11-19T18:21:21.525Z",
+      "exam": 2,
+      "order_num": 11,
+      "text": "Руйнування мінералів та гірських порід унаслідок коливання температури повітря - це",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 16,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:18:41.158Z",
+      "update_timestamp": "2022-11-19T18:20:40.835Z",
+      "exam": 2,
+      "order_num": 12,
+      "text": "Утворення карстових печер є наслідком",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 17,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:18:41.158Z",
+      "update_timestamp": "2022-11-19T18:19:58.440Z",
+      "exam": 2,
+      "order_num": 13,
+      "text": "Які форми рельєфу вважаються найбільшими на Землі?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 18,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:18:41.159Z",
+      "update_timestamp": "2022-11-19T18:19:16.888Z",
+      "exam": 2,
+      "order_num": 14,
+      "text": "Корисні копалини, які людина використовує як будівельний матеріал – це ...",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 19,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:27:32.517Z",
+      "update_timestamp": "2022-11-19T18:33:40.714Z",
+      "exam": 3,
+      "order_num": 1,
+      "text": "Укажіть властивість організму людини, яка характеризує здатність пристосовуватися до змін у зовнішньому та внутрішньому середовиші:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 20,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:27:32.517Z",
+      "update_timestamp": "2022-11-19T18:28:58.115Z",
+      "exam": 3,
+      "order_num": 2,
+      "text": "Найменша структурна і функціональна одиниця організму людини - це",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 21,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:27:32.518Z",
+      "update_timestamp": "2022-11-19T18:28:18.547Z",
+      "exam": 3,
+      "order_num": 3,
+      "text": "Укажіть ознаку живої системи, пов'язану з реакцією організму на дію зовнішніх і внутрішніх подразників:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 22,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:35:01.660Z",
+      "update_timestamp": "2022-11-19T18:37:37.083Z",
+      "exam": 3,
+      "order_num": 4,
+      "text": "Укажіть ряд хімічних елементів, що входять до складу організму людини, як і будь- якої біологічної системи:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 23,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:35:01.661Z",
+      "update_timestamp": "2022-11-19T18:36:56.416Z",
+      "exam": 3,
+      "order_num": 5,
+      "text": "Якісною характеристикою організму людини є;",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 24,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:35:01.661Z",
+      "update_timestamp": "2022-11-19T18:36:18.962Z",
+      "exam": 3,
+      "order_num": 6,
+      "text": "Укажіть тканину, яка є складовою верхнього шару шкіри:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 25,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:35:01.661Z",
+      "update_timestamp": "2022-11-19T18:35:40.398Z",
+      "exam": 3,
+      "order_num": 7,
+      "text": "Виберіть тканину, якій властиві збудливість і провідність:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 26,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:38:57.426Z",
+      "update_timestamp": "2022-11-19T18:42:28.806Z",
+      "exam": 3,
+      "order_num": 8,
+      "text": "Укажіть основну функцію, яку виконує кровоносна система:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 27,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:38:57.426Z",
+      "update_timestamp": "2022-11-19T18:41:44.823Z",
+      "exam": 3,
+      "order_num": 9,
+      "text": "Укажіть науку, яка вивчає функції внутрішніх органів та організму в цілому:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 28,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:38:57.427Z",
+      "update_timestamp": "2022-11-19T18:41:06.375Z",
+      "exam": 3,
+      "order_num": 10,
+      "text": "Укажіть, за допомогою якого приладу вимірюють артеріальний тиск?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 29,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:38:57.427Z",
+      "update_timestamp": "2022-11-19T18:40:22.392Z",
+      "exam": 3,
+      "order_num": 11,
+      "text": "Виберіть правильну послідовність понять, що відображає організм як єдину систему:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 30,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:38:57.427Z",
+      "update_timestamp": "2022-11-19T18:39:38.363Z",
+      "exam": 3,
+      "order_num": 12,
+      "text": "Яка система людського організму постійно реагує на надходження чужорідних для організму хімічних речовин і живих організмів?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 31,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:46:37.039Z",
+      "update_timestamp": "2022-11-19T18:48:25.964Z",
+      "exam": 4,
+      "order_num": 1,
+      "text": "Вкажіть,частиною якої тектонічної структури є Український щит:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 32,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:46:37.040Z",
+      "update_timestamp": "2022-11-19T18:47:51.211Z",
+      "exam": 4,
+      "order_num": 2,
+      "text": "Вкажіть ,як називається найвища точка рівнинної частини України:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 33,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:46:37.040Z",
+      "update_timestamp": "2022-11-19T18:47:14.463Z",
+      "exam": 4,
+      "order_num": 3,
+      "text": "Вкажіть,які поклади в геологічній будові України є найдавнішими:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 34,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:18.041Z",
+      "update_timestamp": "2022-11-19T18:55:05.275Z",
+      "exam": 4,
+      "order_num": 4,
+      "text": "Вкажіть найвищу вершину Кримських гір:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 35,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:18.042Z",
+      "update_timestamp": "2022-11-19T18:54:25.361Z",
+      "exam": 4,
+      "order_num": 5,
+      "text": "Оберіть епоху горотворення,у яку остаточно формувалася Карпатська іКримська гірські споруди:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 36,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:18.042Z",
+      "update_timestamp": "2022-11-19T18:53:38.333Z",
+      "exam": 4,
+      "order_num": 6,
+      "text": "Назвати найнищу точку України",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 37,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:18.042Z",
+      "update_timestamp": "2022-11-19T18:52:30.384Z",
+      "exam": 4,
+      "order_num": 7,
+      "text": "Вкажіть найбільшу за площею височину України:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 38,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:18.043Z",
+      "update_timestamp": "2022-11-19T18:51:34.352Z",
+      "exam": 4,
+      "order_num": 8,
+      "text": "Вкажіть тектонічну структуру ,яка є найбільшою западиною Східноєвропейської платформи, заповнена шарами осадових порід потужністю до 12- 18км:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 39,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:18.043Z",
+      "update_timestamp": "2022-11-19T18:50:51.104Z",
+      "exam": 4,
+      "order_num": 9,
+      "text": "Вкажіть яка тектонічна структура побудована з найдавніших за віком порід:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 1,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:37:54.048Z",
+      "update_timestamp": "2022-11-14T11:37:54.048Z",
+      "question": 1,
+      "text": "5",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 2,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:38:07.808Z",
+      "update_timestamp": "2022-11-14T11:38:07.808Z",
+      "question": 1,
+      "text": "6",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 3,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:38:18.420Z",
+      "update_timestamp": "2022-11-14T11:38:18.420Z",
+      "question": 1,
+      "text": "9",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 4,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:57:53.589Z",
+      "update_timestamp": "2022-11-14T11:57:53.589Z",
+      "question": 3,
+      "text": "10",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 5,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:57:53.590Z",
+      "update_timestamp": "2022-11-14T11:57:53.590Z",
+      "question": 3,
+      "text": "16",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 6,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:57:53.591Z",
+      "update_timestamp": "2022-11-14T11:57:53.591Z",
+      "question": 3,
+      "text": "20",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 7,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:57:53.592Z",
+      "update_timestamp": "2022-11-14T11:57:53.592Z",
+      "question": 3,
+      "text": "15",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 8,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:58:25.022Z",
+      "update_timestamp": "2022-11-14T11:58:25.022Z",
+      "question": 2,
+      "text": "9",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 9,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:58:25.022Z",
+      "update_timestamp": "2022-11-14T11:58:25.023Z",
+      "question": 2,
+      "text": "7",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 10,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:58:25.023Z",
+      "update_timestamp": "2022-11-14T11:58:25.023Z",
+      "question": 2,
+      "text": "10",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 11,
+   "fields": {
+      "create_timestamp": "2022-11-14T11:58:25.024Z",
+      "update_timestamp": "2022-11-14T11:58:25.024Z",
+      "question": 2,
+      "text": "8",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 12,
+   "fields": {
+      "create_timestamp": "2022-11-19T16:16:43.169Z",
+      "update_timestamp": "2022-11-19T16:16:43.169Z",
+      "question": 4,
+      "text": "6",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 13,
+   "fields": {
+      "create_timestamp": "2022-11-19T16:16:43.170Z",
+      "update_timestamp": "2022-11-19T16:16:43.170Z",
+      "question": 4,
+      "text": "10",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 14,
+   "fields": {
+      "create_timestamp": "2022-11-19T16:16:43.170Z",
+      "update_timestamp": "2022-11-19T16:16:43.170Z",
+      "question": 4,
+      "text": "5",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 15,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:08:06.559Z",
+      "update_timestamp": "2022-11-19T18:08:06.559Z",
+      "question": 7,
+      "text": "піднята ділянка кристалічного фундаменту платформи",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 16,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:08:06.559Z",
+      "update_timestamp": "2022-11-19T18:08:06.559Z",
+      "question": 7,
+      "text": "глибоко увігнута ділянка земної кори,заповнена осадовими товщами",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 17,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:08:06.559Z",
+      "update_timestamp": "2022-11-19T18:08:06.559Z",
+      "question": 7,
+      "text": "ділянка платформи,де фундамент занурений на глибину і всюди перекритий осадовим чохлом",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 18,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:08:45.721Z",
+      "update_timestamp": "2022-11-19T18:08:45.721Z",
+      "question": 6,
+      "text": "глибоко увігнута ділянка земної кори,заповнена осадовими товщами",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 19,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:08:45.722Z",
+      "update_timestamp": "2022-11-19T18:08:45.722Z",
+      "question": 6,
+      "text": "піднята ділянка кристалічного фундаменту платформи",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 20,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:08:45.722Z",
+      "update_timestamp": "2022-11-19T18:08:45.722Z",
+      "question": 6,
+      "text": "ділянка платформи,де фундамент занурений на глибину і всюди перекритий осадовим чохлом",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 21,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:09:22.843Z",
+      "update_timestamp": "2022-11-19T18:09:22.843Z",
+      "question": 5,
+      "text": "піднята ділянка кристалічного фундаменту платформи",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 22,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:09:22.844Z",
+      "update_timestamp": "2022-11-19T18:09:22.844Z",
+      "question": 5,
+      "text": "глибоко увігнута ділянка земної кори,заповнена осадовими товщами",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 23,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:09:22.844Z",
+      "update_timestamp": "2022-11-19T18:09:22.844Z",
+      "question": 5,
+      "text": "ділянка платформи,де фундамент занурений на глибину і всюди перекритий осадовим чохлом",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 24,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:11:36.937Z",
+      "update_timestamp": "2022-11-19T18:11:36.937Z",
+      "question": 8,
+      "text": "Західноєвропейська молода платформа",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 25,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:11:36.938Z",
+      "update_timestamp": "2022-11-19T18:11:36.938Z",
+      "question": 8,
+      "text": "Скіфська молода платформа",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 26,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:11:36.938Z",
+      "update_timestamp": "2022-11-19T18:11:36.938Z",
+      "question": 8,
+      "text": "Східноєвропейська давня платформа",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 27,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:11:36.938Z",
+      "update_timestamp": "2022-11-19T18:11:36.938Z",
+      "question": 8,
+      "text": "Альпійський складчастий пояс",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 28,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:12:27.258Z",
+      "update_timestamp": "2022-11-19T18:12:27.258Z",
+      "question": 9,
+      "text": "висоту точки над рівнем моря",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 29,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:12:27.259Z",
+      "update_timestamp": "2022-11-19T18:12:27.259Z",
+      "question": 9,
+      "text": "перевищення однієї точки земної поверхні над іншою",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 30,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:12:27.259Z",
+      "update_timestamp": "2022-11-19T18:12:27.259Z",
+      "question": 9,
+      "text": "усі нерівності земної поверхні",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 31,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:12:27.259Z",
+      "update_timestamp": "2022-11-19T18:12:27.259Z",
+      "question": 9,
+      "text": "різницю між абсолютною і відносною висотою на земній поверхні",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 32,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:13:20.686Z",
+      "update_timestamp": "2022-11-19T18:13:20.686Z",
+      "question": 10,
+      "text": "кайнозойські",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 33,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:13:20.686Z",
+      "update_timestamp": "2022-11-19T18:13:20.686Z",
+      "question": 10,
+      "text": "палеозойські",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 34,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:13:20.687Z",
+      "update_timestamp": "2022-11-19T18:13:20.687Z",
+      "question": 10,
+      "text": "мезозойські",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 35,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:13:20.687Z",
+      "update_timestamp": "2022-11-19T18:13:20.687Z",
+      "question": 10,
+      "text": "докембрійські",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 36,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:15:20.438Z",
+      "update_timestamp": "2022-11-19T18:15:20.438Z",
+      "question": 14,
+      "text": "руйнування гірських порід",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 37,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:15:20.439Z",
+      "update_timestamp": "2022-11-19T18:15:20.439Z",
+      "question": 14,
+      "text": "відкладання гірських порід",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 38,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:15:20.439Z",
+      "update_timestamp": "2022-11-19T18:15:20.439Z",
+      "question": 14,
+      "text": "перенесення гірських порід",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 39,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:15:20.439Z",
+      "update_timestamp": "2022-11-19T18:15:20.439Z",
+      "question": 14,
+      "text": "усі варіанти правильні",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 40,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:16:00.882Z",
+      "update_timestamp": "2022-11-19T18:16:00.882Z",
+      "question": 13,
+      "text": "Західноєвропейська,Північноєвропейська,Східноєвропейська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 41,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:16:00.882Z",
+      "update_timestamp": "2022-11-19T18:16:00.882Z",
+      "question": 13,
+      "text": "Західноєвропейська,Сибірська,Східноєвропейська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 42,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:16:00.883Z",
+      "update_timestamp": "2022-11-19T18:16:00.883Z",
+      "question": 13,
+      "text": "Західноєвропейська,Скіфська,Східноєвропейська",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 43,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:16:47.494Z",
+      "update_timestamp": "2022-11-19T18:16:47.494Z",
+      "question": 12,
+      "text": "Каледонська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 44,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:16:47.495Z",
+      "update_timestamp": "2022-11-19T18:16:47.495Z",
+      "question": 12,
+      "text": "Герцинська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 45,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:16:47.495Z",
+      "update_timestamp": "2022-11-19T18:16:47.495Z",
+      "question": 12,
+      "text": "Альпійська",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 46,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:16:47.496Z",
+      "update_timestamp": "2022-11-19T18:16:47.496Z",
+      "question": 12,
+      "text": "Байкальська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 47,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:17:29.696Z",
+      "update_timestamp": "2022-11-19T18:17:29.696Z",
+      "question": 11,
+      "text": "г.Ай- Петрі",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 48,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:17:29.696Z",
+      "update_timestamp": "2022-11-19T18:17:29.696Z",
+      "question": 11,
+      "text": "г.Карадаг",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 49,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:17:29.697Z",
+      "update_timestamp": "2022-11-19T18:17:29.697Z",
+      "question": 11,
+      "text": "г.Роман-Кош",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 50,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:17:29.697Z",
+      "update_timestamp": "2022-11-19T18:17:29.697Z",
+      "question": 11,
+      "text": "г.Говерла",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 51,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:19:16.888Z",
+      "update_timestamp": "2022-11-19T18:19:16.889Z",
+      "question": 18,
+      "text": "рудні",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 52,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:19:16.889Z",
+      "update_timestamp": "2022-11-19T18:19:16.889Z",
+      "question": 18,
+      "text": "нерудні",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 53,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:19:16.889Z",
+      "update_timestamp": "2022-11-19T18:19:16.889Z",
+      "question": 18,
+      "text": "паливні",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 54,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:19:58.441Z",
+      "update_timestamp": "2022-11-19T18:19:58.441Z",
+      "question": 17,
+      "text": "гори та рівнини",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 55,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:19:58.441Z",
+      "update_timestamp": "2022-11-19T18:19:58.441Z",
+      "question": 17,
+      "text": "материки та западини океанів",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 56,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:19:58.441Z",
+      "update_timestamp": "2022-11-19T18:19:58.441Z",
+      "question": 17,
+      "text": "горби та западини",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 57,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:19:58.442Z",
+      "update_timestamp": "2022-11-19T18:19:58.442Z",
+      "question": 17,
+      "text": "височини й низовини",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 58,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:20:40.836Z",
+      "update_timestamp": "2022-11-19T18:20:40.836Z",
+      "question": 16,
+      "text": "роботи вітру",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 59,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:20:40.836Z",
+      "update_timestamp": "2022-11-19T18:20:40.836Z",
+      "question": 16,
+      "text": "роботи підземних вод",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 60,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:20:40.836Z",
+      "update_timestamp": "2022-11-19T18:20:40.836Z",
+      "question": 16,
+      "text": "роботи поверхневих вод",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 61,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:20:40.837Z",
+      "update_timestamp": "2022-11-19T18:20:40.837Z",
+      "question": 16,
+      "text": "фізичного вивітрювання",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 62,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:21:21.525Z",
+      "update_timestamp": "2022-11-19T18:21:21.525Z",
+      "question": 15,
+      "text": "фізичне вивітрювання",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 63,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:21:21.526Z",
+      "update_timestamp": "2022-11-19T18:21:21.526Z",
+      "question": 15,
+      "text": "хімічне вивітрювання",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 64,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:21:21.526Z",
+      "update_timestamp": "2022-11-19T18:21:21.526Z",
+      "question": 15,
+      "text": "органічне вивітрювання",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 65,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:28:18.549Z",
+      "update_timestamp": "2022-11-19T18:28:18.549Z",
+      "question": 21,
+      "text": "рівневість;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 66,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:28:18.558Z",
+      "update_timestamp": "2022-11-19T18:28:18.558Z",
+      "question": 21,
+      "text": "розмноження;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 67,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:28:18.559Z",
+      "update_timestamp": "2022-11-19T18:28:18.559Z",
+      "question": 21,
+      "text": "подразливість;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 68,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:28:18.559Z",
+      "update_timestamp": "2022-11-19T18:28:18.559Z",
+      "question": 21,
+      "text": "обмін речовин.",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 69,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:28:58.116Z",
+      "update_timestamp": "2022-11-19T18:28:58.116Z",
+      "question": 20,
+      "text": "тканина;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 70,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:28:58.116Z",
+      "update_timestamp": "2022-11-19T18:28:58.116Z",
+      "question": 20,
+      "text": "орган;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 71,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:28:58.117Z",
+      "update_timestamp": "2022-11-19T18:28:58.117Z",
+      "question": 20,
+      "text": "клітина;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 72,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:28:58.117Z",
+      "update_timestamp": "2022-11-19T18:28:58.117Z",
+      "question": 20,
+      "text": "організм.",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 73,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:33:40.715Z",
+      "update_timestamp": "2022-11-19T18:33:40.715Z",
+      "question": 19,
+      "text": "цілісність;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 74,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:33:40.715Z",
+      "update_timestamp": "2022-11-19T18:33:40.715Z",
+      "question": 19,
+      "text": "здатність до рухів;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 75,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:33:40.716Z",
+      "update_timestamp": "2022-11-19T18:33:40.716Z",
+      "question": 19,
+      "text": "формування адаптацій;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 76,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:33:40.716Z",
+      "update_timestamp": "2022-11-19T18:33:40.716Z",
+      "question": 19,
+      "text": "здатність до розмноження.",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 77,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:35:40.399Z",
+      "update_timestamp": "2022-11-19T18:35:40.399Z",
+      "question": 25,
+      "text": "епітеліаьна;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 78,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:35:40.400Z",
+      "update_timestamp": "2022-11-19T18:35:40.400Z",
+      "question": 25,
+      "text": "сполучна;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 79,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:35:40.400Z",
+      "update_timestamp": "2022-11-19T18:35:40.400Z",
+      "question": 25,
+      "text": "скелетна;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 80,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:35:40.400Z",
+      "update_timestamp": "2022-11-19T18:35:40.400Z",
+      "question": 25,
+      "text": "нервова,",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 81,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:36:18.963Z",
+      "update_timestamp": "2022-11-19T18:36:18.963Z",
+      "question": 24,
+      "text": "епітеліальна;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 82,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:36:18.963Z",
+      "update_timestamp": "2022-11-19T18:36:18.963Z",
+      "question": 24,
+      "text": "сполучна;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 83,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:36:18.964Z",
+      "update_timestamp": "2022-11-19T18:36:18.964Z",
+      "question": 24,
+      "text": "м'язова;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 84,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:36:18.964Z",
+      "update_timestamp": "2022-11-19T18:36:18.964Z",
+      "question": 24,
+      "text": "нервова.",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 85,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:36:56.417Z",
+      "update_timestamp": "2022-11-19T18:36:56.417Z",
+      "question": 23,
+      "text": "рух;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 86,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:36:56.418Z",
+      "update_timestamp": "2022-11-19T18:36:56.418Z",
+      "question": 23,
+      "text": "ріст;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 87,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:36:56.418Z",
+      "update_timestamp": "2022-11-19T18:36:56.418Z",
+      "question": 23,
+      "text": "розвиток;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 88,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:36:56.419Z",
+      "update_timestamp": "2022-11-19T18:36:56.419Z",
+      "question": 23,
+      "text": "розмноження.",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 89,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:37:37.084Z",
+      "update_timestamp": "2022-11-19T18:37:37.084Z",
+      "question": 22,
+      "text": "H, O, C, Si",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 90,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:37:37.084Z",
+      "update_timestamp": "2022-11-19T18:37:37.084Z",
+      "question": 22,
+      "text": "H, O, Fe, N",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 91,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:37:37.084Z",
+      "update_timestamp": "2022-11-19T18:37:37.084Z",
+      "question": 22,
+      "text": "H, P, S, O",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 92,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:37:37.085Z",
+      "update_timestamp": "2022-11-19T18:37:37.085Z",
+      "question": 22,
+      "text": "O, H, C, N",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 93,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:39:38.364Z",
+      "update_timestamp": "2022-11-19T18:39:38.364Z",
+      "question": 30,
+      "text": "ендокринна;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 94,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:39:38.365Z",
+      "update_timestamp": "2022-11-19T18:39:38.365Z",
+      "question": 30,
+      "text": "сенсорна;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 95,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:39:38.365Z",
+      "update_timestamp": "2022-11-19T18:39:38.365Z",
+      "question": 30,
+      "text": "імунна;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 96,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:39:38.365Z",
+      "update_timestamp": "2022-11-19T18:39:38.365Z",
+      "question": 30,
+      "text": "нервова.",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 97,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:40:22.393Z",
+      "update_timestamp": "2022-11-19T18:40:22.393Z",
+      "question": 29,
+      "text": "орган - тканина - організм- клітина - молекули - системи органів;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 98,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:40:22.394Z",
+      "update_timestamp": "2022-11-19T18:40:22.395Z",
+      "question": 29,
+      "text": "молекули - тканини - клітини - органи - системи органів - організм;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 99,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:40:22.395Z",
+      "update_timestamp": "2022-11-19T18:40:22.395Z",
+      "question": 29,
+      "text": "молекули - клітини - тканини - органи - системи органів - організм;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 100,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:40:22.395Z",
+      "update_timestamp": "2022-11-19T18:40:22.395Z",
+      "question": 29,
+      "text": "системи органів - тканини - організм - клітини - молекули.",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 101,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:41:06.376Z",
+      "update_timestamp": "2022-11-19T18:41:06.376Z",
+      "question": 28,
+      "text": "глюкометр;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 102,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:41:06.376Z",
+      "update_timestamp": "2022-11-19T18:41:06.376Z",
+      "question": 28,
+      "text": "тонометр;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 103,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:41:06.377Z",
+      "update_timestamp": "2022-11-19T18:41:06.377Z",
+      "question": 28,
+      "text": "електрокардіограф;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 104,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:41:06.377Z",
+      "update_timestamp": "2022-11-19T18:41:06.377Z",
+      "question": 28,
+      "text": "флюорограф",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 105,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:41:44.825Z",
+      "update_timestamp": "2022-11-19T18:41:44.825Z",
+      "question": 27,
+      "text": "гістологія;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 106,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:41:44.825Z",
+      "update_timestamp": "2022-11-19T18:41:44.825Z",
+      "question": 27,
+      "text": "фізіологія;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 107,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:41:44.826Z",
+      "update_timestamp": "2022-11-19T18:41:44.826Z",
+      "question": 27,
+      "text": "анатомія;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 108,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:41:44.826Z",
+      "update_timestamp": "2022-11-19T18:41:44.826Z",
+      "question": 27,
+      "text": "генетика.",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 109,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:42:28.806Z",
+      "update_timestamp": "2022-11-19T18:42:28.806Z",
+      "question": 26,
+      "text": "транспортна;",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 110,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:42:28.807Z",
+      "update_timestamp": "2022-11-19T18:42:28.807Z",
+      "question": 26,
+      "text": "секреторна;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 111,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:42:28.807Z",
+      "update_timestamp": "2022-11-19T18:42:28.807Z",
+      "question": 26,
+      "text": "рефлекторна;",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 112,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:42:28.807Z",
+      "update_timestamp": "2022-11-19T18:42:28.807Z",
+      "question": 26,
+      "text": "видільна,",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 113,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:47:14.466Z",
+      "update_timestamp": "2022-11-19T18:47:14.466Z",
+      "question": 33,
+      "text": "кайнозойські",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 114,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:47:14.467Z",
+      "update_timestamp": "2022-11-19T18:47:14.467Z",
+      "question": 33,
+      "text": "палеозойські",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 115,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:47:14.467Z",
+      "update_timestamp": "2022-11-19T18:47:14.467Z",
+      "question": 33,
+      "text": "мезозойські",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 116,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:47:14.467Z",
+      "update_timestamp": "2022-11-19T18:47:14.467Z",
+      "question": 33,
+      "text": "докембрійські",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 117,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:47:51.212Z",
+      "update_timestamp": "2022-11-19T18:47:51.212Z",
+      "question": 32,
+      "text": "г.Могила -Мечетна",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 118,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:47:51.213Z",
+      "update_timestamp": "2022-11-19T18:47:51.213Z",
+      "question": 32,
+      "text": "г.Бельмак-Могила",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 119,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:47:51.213Z",
+      "update_timestamp": "2022-11-19T18:47:51.213Z",
+      "question": 32,
+      "text": "г.Камула",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 120,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:47:51.213Z",
+      "update_timestamp": "2022-11-19T18:47:51.213Z",
+      "question": 32,
+      "text": "г.Берда",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 121,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:48:25.968Z",
+      "update_timestamp": "2022-11-19T18:48:25.969Z",
+      "question": 31,
+      "text": "Західноєвропейська молода платформа",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 122,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:48:25.969Z",
+      "update_timestamp": "2022-11-19T18:48:25.969Z",
+      "question": 31,
+      "text": "Скіфська молода платформа",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 123,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:48:25.970Z",
+      "update_timestamp": "2022-11-19T18:48:25.970Z",
+      "question": 31,
+      "text": "Східноєвропейська давня платформа",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 124,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:48:25.970Z",
+      "update_timestamp": "2022-11-19T18:48:25.970Z",
+      "question": 31,
+      "text": "Альпійський складчастий пояс",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 125,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:51.105Z",
+      "update_timestamp": "2022-11-19T18:50:51.105Z",
+      "question": 39,
+      "text": "Донецька складчаста споруда",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 126,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:51.106Z",
+      "update_timestamp": "2022-11-19T18:50:51.106Z",
+      "question": 39,
+      "text": "Волино-Подільська плита",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 127,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:51.106Z",
+      "update_timestamp": "2022-11-19T18:50:51.106Z",
+      "question": 39,
+      "text": "Український щит",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 128,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:50:51.106Z",
+      "update_timestamp": "2022-11-19T18:50:51.106Z",
+      "question": 39,
+      "text": "Скіфська платформа",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 129,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:51:34.353Z",
+      "update_timestamp": "2022-11-19T18:51:34.353Z",
+      "question": 38,
+      "text": "Передкарпатський прогин",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 130,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:51:34.353Z",
+      "update_timestamp": "2022-11-19T18:51:34.353Z",
+      "question": 38,
+      "text": "Причорноморська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 131,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:51:34.354Z",
+      "update_timestamp": "2022-11-19T18:51:34.354Z",
+      "question": 38,
+      "text": "Дніпровсько - Донецька",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 132,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:51:34.354Z",
+      "update_timestamp": "2022-11-19T18:51:34.354Z",
+      "question": 38,
+      "text": "Закарпатська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 133,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:52:30.385Z",
+      "update_timestamp": "2022-11-19T18:52:30.385Z",
+      "question": 37,
+      "text": "Приазовська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 134,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:52:30.385Z",
+      "update_timestamp": "2022-11-19T18:52:30.387Z",
+      "question": 37,
+      "text": "Подільська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 135,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:52:30.389Z",
+      "update_timestamp": "2022-11-19T18:52:30.390Z",
+      "question": 37,
+      "text": "Придніпровська",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 136,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:52:30.390Z",
+      "update_timestamp": "2022-11-19T18:52:30.390Z",
+      "question": 37,
+      "text": "Донецька",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 137,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:53:38.334Z",
+      "update_timestamp": "2022-11-19T18:53:38.334Z",
+      "question": 36,
+      "text": "Хаджибейський лиман",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 138,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:53:38.334Z",
+      "update_timestamp": "2022-11-19T18:53:38.334Z",
+      "question": 36,
+      "text": "Тилігульський лиман",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 139,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:53:38.335Z",
+      "update_timestamp": "2022-11-19T18:53:38.335Z",
+      "question": 36,
+      "text": "Куяльницький лиман",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 140,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:53:38.335Z",
+      "update_timestamp": "2022-11-19T18:53:38.335Z",
+      "question": 36,
+      "text": "Дніпровсько-Бузький",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 141,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:54:25.362Z",
+      "update_timestamp": "2022-11-19T18:54:25.362Z",
+      "question": 35,
+      "text": "Каледонська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 142,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:54:25.363Z",
+      "update_timestamp": "2022-11-19T18:54:25.363Z",
+      "question": 35,
+      "text": "Герцинська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 143,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:54:25.363Z",
+      "update_timestamp": "2022-11-19T18:54:25.363Z",
+      "question": 35,
+      "text": "Альпійська",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 144,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:54:25.364Z",
+      "update_timestamp": "2022-11-19T18:54:25.364Z",
+      "question": 35,
+      "text": "Байкальська",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 145,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:55:05.276Z",
+      "update_timestamp": "2022-11-19T18:55:05.276Z",
+      "question": 34,
+      "text": "г.Ай- Петрі",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 146,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:55:05.276Z",
+      "update_timestamp": "2022-11-19T18:55:05.276Z",
+      "question": 34,
+      "text": "г.Карадаг",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 147,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:55:05.277Z",
+      "update_timestamp": "2022-11-19T18:55:05.277Z",
+      "question": 34,
+      "text": "г.Роман-Кош",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 148,
+   "fields": {
+      "create_timestamp": "2022-11-19T18:55:05.277Z",
+      "update_timestamp": "2022-11-19T18:55:05.277Z",
+      "question": 34,
+      "text": "г.Говерла",
+      "is_correct": false
+   }
+}
+]
