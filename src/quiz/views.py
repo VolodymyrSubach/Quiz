@@ -16,7 +16,7 @@ from .models import Result
 class ExamListView(LoginRequiredMixin, ListView):
     model = Exam
     template_name = 'exam/list.html'
-    context_object_name = 'exams'       # object_list
+    context_object_name = 'exams'  # object_list
 
 
 class ExamDetailView(LoginRequiredMixin, DetailView):
@@ -28,6 +28,15 @@ class ExamDetailView(LoginRequiredMixin, DetailView):
     def get_object(self, queryset=None):
         uuid = self.kwargs.get('uuid')
         return self.model.objects.get(uuid=uuid)
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        try:
+            context['best_result'] = Result.objects.filter(exam_id=self.object).order_by('-num_correct_answers')[0]
+            context['last_run'] = Result.objects.filter(exam_id=self.object).order_by('-update_timestamp')[0]
+        except IndexError:
+            context['best_result'] = 'N/A'
+        return context
 
     # def get_context_data(self, **kwargs):
     #     context = super().get_context_data(**kwargs)

@@ -27,16 +27,29 @@
                             <td>{{ exam.results.count }}</td>
                         </tr>
                         <tr>
-                            <td>Best result</td>
-                            <td>N/A</td>
-                        </tr>
-                        <tr>
-                            <td>Best user</td>
-                            <td>N/A</td>
-                        </tr>
-                        <tr>
-                            <td>Last run</td>
-                            <td>N/A</td>
+                            {% if best_result.num_correct_answers %}
+                                    <td>Best result</td>
+                                        <td>{{ best_result.num_correct_answers }}/{{ exam.questions.count }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Best user</td>
+                                    <td>{{ best_result.user }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Last run</td>
+                                    <td>{{ last_run.update_timestamp }}</td>
+                            {% else %}
+                                <td>Best result</td>
+                                        <td>{{ best_result }}/{{ exam.questions.count }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Best user</td>
+                                    <td>{{ best_result }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Last run</td>
+                                    <td>{{ best_result }}</td>
+                            {% endif %}
                         </tr>
                     </tbody>
               </table>
