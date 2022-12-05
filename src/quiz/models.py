@@ -106,3 +106,6 @@ class Result(BaseModel):
             return points
         else:
             return 0
+
+    def points(self):
+        return max(0, self.num_correct_answers - self.num_incorrect_answers)
