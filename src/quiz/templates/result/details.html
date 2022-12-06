@@ -1,11 +1,22 @@
 {% extends 'base.html' %}
 
+{% load calculate %}
+
 {% block title %}
     Test result
 {% endblock %}
 
 {% block header %}
     Result of test: "{{ result.exam.title }}"
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated"
+             role="progressbar"
+             aria-label="Animated striped example"
+             aria-valuenow="100"
+             style="width: 100%"
+             aria-valuemin="0"
+             aria-valuemax="100"
+        >100%</div>
 {% endblock %}
 
 {% block content %}
@@ -24,7 +35,28 @@
                         </tr>
                         <tr>
                             <td>Result</td>
-                            <td>{{ result.num_correct_answers }} / {{ result.num_incorrect_answers }}</td>
+                                {% expression '%1 * 100 // %2' result.num_correct_answers result.exam.questions_count as correct %}
+                                {% expression '%1 * 100 // %2' result.num_incorrect_answers result.exam.questions_count as incorrect %}
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                         role="progressbar"
+                                         aria-label="Segment one"
+                                         style="width:{{ correct }}%"
+                                         aria-valuenow="{{ correct }}"
+                                         aria-valuemin="0"
+                                         aria-valuemax="100"
+                                    >{{ correct }}%</div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                         role="progressbar"
+                                         aria-label="Segment two"
+                                         style="width:{{ incorrect }}%"
+                                         aria-valuenow="{{ incorrect }}"
+                                         aria-valuemin="0"
+                                         aria-valuemax="100"
+                                    >{{ incorrect }}%</div>
+                                </div>
+                            </td>
                         </tr>
                     </tbody>
               </table>

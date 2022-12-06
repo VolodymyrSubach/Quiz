@@ -29,8 +29,8 @@ class Exam(BaseModel):
     def __str__(self):
         return self.title
 
-    # def questions_count(self):
-    #     return self.questions.count()
+    def questions_count(self):
+        return self.questions.count()
 
     class Meta:
         db_table = 'exam'
@@ -99,3 +99,13 @@ class Result(BaseModel):
             self.state = self.STATE.FINISHED
 
         self.save()
+
+    def calculate_score(self):
+        points = self.num_correct_answers - self.num_incorrect_answers
+        if points > 0:
+            return points
+        else:
+            return 0
+
+    def points(self):
+        return max(0, self.num_correct_answers - self.num_incorrect_answers)
